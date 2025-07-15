@@ -22,23 +22,23 @@ const pages = [
 const socials = [
   {
     label: "GitHub",
-    href: "https://www.github.com/codewithsadee-org",
+    href: "https://github.com/gustionusamba24",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/codewithsadee",
+    href: "https://www.linkedin.com/in/gustio-nusamba/",
   },
   {
-    label: "Twitter X",
-    href: "https://x.com/codewithsadee_",
+    label: "Facebook",
+    href: "https://www.facebook.com/gustionusamba/",
   },
   {
     label: "Instagram",
-    href: "https://www.instagram.com/codewithsadee",
+    href: "https://www.instagram.com/gustiosmb",
   },
   {
-    label: "CodePen",
-    href: "https://codepen.io/codewithsadee",
+    label: "Leetcode",
+    href: "https://leetcode.com/u/gustionusamba24/",
   },
 ];
 

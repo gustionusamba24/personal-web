@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="pt-20 lg:pt-32">
+    <section id="about" className="pt-20 lg:pt-32">
       <div className="container">
         <h1 className="heading-1">
           About <span className="heading-2">Me</span>
@@ -20,6 +20,44 @@ const About = () => {
               part in developing projects together with people who are
               experienced in their fields.
             </p>
+            <div className="mt-7 flex w-full items-center justify-center gap-7">
+              <a
+                href="https://github.com/gustionusamba24"
+                className="social-icon"
+                target="_blank"
+              >
+                <img
+                  src="images/about/github.svg"
+                  alt="Github Profile"
+                  width={32}
+                  height={32}
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/gustio-nusamba/"
+                className="social-icon"
+                target="_blank"
+              >
+                <img
+                  src="images/about/linkedin.svg"
+                  alt="Linkedin Profile"
+                  width={32}
+                  height={32}
+                />
+              </a>
+              <a
+                href="https://leetcode.com/u/gustionusamba24/"
+                className="social-icon"
+                target="_blank"
+              >
+                <img
+                  src="images/about/leetcode.svg"
+                  alt="Leetcode Profile"
+                  width={32}
+                  height={32}
+                />
+              </a>
+            </div>
           </div>
 
           <div className="hidden lg:block">
