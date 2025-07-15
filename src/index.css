@@ -23,8 +23,7 @@ a {
   @apply font-heading;
 }
 
-.headline-1,
-.headline-2 {
+.headline-1 {
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
   -webkit-background-clip: text;
@@ -36,6 +35,8 @@ a {
   @apply text-5xl font-semibold leading-tight lg:text-[55px] lg:leading-[1.15];
 }
 
+.headline-2 {
+}
 /* ----------------------------------------------------------- */
 /* UTILITIES */
 /* ----------------------------------------------------------- */
@@ -48,7 +49,7 @@ a {
 }
 
 .section {
-  @apply pt-20 lg:pt-32;
+  @apply pt-28 lg:pt-36;
 }
 
 .container {
@@ -84,6 +85,14 @@ a {
 /* Button */
 .btn {
   @apply flex h-11 max-w-max items-center gap-2 rounded-xl px-4 text-base font-medium ring-1 ring-inset ring-zinc-50/20 transition-[background-color] active:bg-zinc-50/10;
+}
+
+.btn-fill {
+  @apply bg-darkGreen ring-zinc-50/10 transition duration-200 hover:bg-lightGreen hover:text-zinc-900 hover:ring-zinc-50/0 hover:duration-200;
+}
+
+.btn-outline {
+  @apply hover:bg-zinc-50/10;
 }
 
 .material-symbols-rounded {

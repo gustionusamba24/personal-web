@@ -11,7 +11,7 @@ const Header = () => {
         <h1>
           <Link
             to="/"
-            className="text-3xl font-extrabold tracking-wide text-lightGreen md:text-lg lg:text-xl"
+            className="text-2xl font-extrabold tracking-wide text-lightGreen md:text-lg lg:text-xl"
           >
             Gustio Nusamba
           </Link>{" "}
