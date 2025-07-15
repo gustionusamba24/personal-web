@@ -43,7 +43,7 @@ const Tools = () => {
           Essential Tools <span className="heading-2">I Use</span>
         </h1>
 
-        <div className="mt-4 grid grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] gap-3 lg:mt-8">
+        <div className="mt-8 grid grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))] gap-3 md:mt-10 lg:mt-14">
           {tools.map(({ imgSrc, label }, key) => (
             <ToolCard key={key} imgSrc={imgSrc} label={label} />
           ))}
