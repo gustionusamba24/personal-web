@@ -1,23 +1,21 @@
-const sitemap = [
+import { Link } from "react-router";
+
+const pages = [
   {
     label: "Home",
-    href: "#home",
-  },
-  {
-    label: "About",
-    href: "#about",
+    link: "/",
   },
   {
     label: "Projects",
-    href: "#projects",
+    link: "/projects",
   },
   {
     label: "Resume",
-    href: "#resume",
+    link: "/resume",
   },
   {
     label: "Contact",
-    href: "#contact",
+    link: "/contact",
   },
 ];
 
@@ -51,24 +49,28 @@ const Footer = () => {
         <div className="lg:grid lg:grid-cols-2">
           <div className="mb-10">
             <h2 className="headline-1 mb-8 lg:max-w-[12ch]">
-              Let&apos;s connect
+              Let&apos;s work together
             </h2>
+
+            <a href="" className="btn">
+              Contact
+            </a>
           </div>
 
           <div className="grid grid-cols-2 gap-4 lg:pl-20">
             <div className="">
-              <p className="mb-2">Sitemap</p>
+              <p className="mb-2">Pages</p>
 
               <ul>
-                {sitemap.map(({ label, href }, key) => {
+                {pages.map(({ label, link }, key) => {
                   return (
                     <li key={key}>
-                      <a
-                        href={href}
+                      <Link
+                        to={link}
                         className="block py-1 text-sm text-zinc-400 transition-colors hover:text-zinc-200"
                       >
                         {label}
-                      </a>
+                      </Link>
                     </li>
                   );
                 })}
@@ -98,9 +100,9 @@ const Footer = () => {
         </div>
 
         <div className="mb-8 flex items-center justify-between pt-10">
-          <a href="#home" className="text-lightGreen">
+          <Link to="/" className="text-lightGreen">
             Gustio Nusamba
-          </a>
+          </Link>
 
           <p className="text-sm text-zinc-500">
             &copy; 2025 <span className="text-zinc-200">Gustio Nusamba</span>
