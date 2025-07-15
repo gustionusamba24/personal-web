@@ -18,8 +18,35 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+a,
+.headline-1 {
   @apply font-heading;
+}
+
+.headline-1 {
+  @apply max-w-max;
+  background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headline-1 {
+  @apply text-5xl font-semibold leading-tight lg:text-[55px] lg:leading-[1.15];
+}
+
+.heading-1,
+.heading-2 {
+  @apply text-center text-4xl font-semibold leading-tight text-zinc-50 lg:text-5xl lg:font-bold lg:tracking-wide;
+}
+
+.heading-2 {
+  @apply text-lightGreen;
+}
+
+.about-description {
+  @apply leading-6 text-zinc-50 md:text-lg lg:text-xl lg:leading-8;
 }
 
 /* ----------------------------------------------------------- */
@@ -31,4 +58,55 @@ h6 {
     "wght" 500,
     "GRAD" 0,
     "opsz" 24;
+}
+
+.section {
+  @apply pt-28 lg:pt-36;
+}
+
+.container {
+  @apply mx-auto px-4 lg:px-8 xl:max-w-6xl;
+}
+
+/* ----------------------------------------------------------- */
+/* COMPONENTS */
+/* ----------------------------------------------------------- */
+
+/* Menu Btn */
+.menu-btn {
+  @apply grid h-10 w-10 place-items-center rounded-xl bg-zinc-50/10 ring-1 ring-inset ring-zinc-50/5 backdrop-blur-2xl transition-[transform,background-color] hover:bg-zinc-50/15 active:scale-95;
+}
+
+/* Navbar */
+.navbar {
+  @apply invisible absolute right-0 top-full isolate mt-2 min-w-40 scale-90 rounded-lg bg-zinc-50/10 p-2 opacity-0 ring-1 ring-inset ring-zinc-50/5 blur-sm transition-[opacity,transform,filter] md:visible md:static md:mt-0 md:flex md:scale-100 md:items-center md:opacity-100 md:blur-0 md:backdrop-blur-2xl;
+}
+
+.navbar.active {
+  @apply visible scale-100 opacity-100 blur-0;
+}
+
+.nav-link {
+  @apply grid h-9 items-center px-4 text-[14px] font-medium tracking-wide text-zinc-50/50 transition-colors hover:text-zinc-50 md:text-base;
+}
+
+.nav-link.active {
+  @apply text-lightGreen duration-500;
+}
+
+/* Button */
+.btn {
+  @apply flex h-11 max-w-max items-center gap-2 rounded-xl px-4 text-base font-medium ring-1 ring-inset ring-zinc-50/20 transition-[background-color] active:bg-zinc-50/10;
+}
+
+.btn-fill {
+  @apply bg-darkGreen ring-zinc-50/10 transition duration-200 hover:bg-lightGreen hover:text-zinc-900 hover:ring-zinc-50/0 hover:duration-200;
+}
+
+.btn-outline {
+  @apply hover:bg-zinc-50/10;
+}
+
+.material-symbols-rounded {
+  @apply text-[20px];
 }
