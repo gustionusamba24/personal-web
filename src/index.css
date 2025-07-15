@@ -19,7 +19,8 @@ h3,
 h4,
 h5,
 h6,
-a {
+a,
+.headline-1 {
   @apply font-heading;
 }
 
@@ -35,8 +36,19 @@ a {
   @apply text-5xl font-semibold leading-tight lg:text-[55px] lg:leading-[1.15];
 }
 
-.headline-2 {
+.heading-1,
+.heading-2 {
+  @apply text-center text-4xl font-semibold leading-tight text-zinc-50 lg:text-5xl lg:font-bold lg:tracking-wide;
 }
+
+.heading-2 {
+  @apply text-lightGreen;
+}
+
+.about-description {
+  @apply leading-6 text-zinc-50 md:text-lg lg:text-xl lg:leading-8;
+}
+
 /* ----------------------------------------------------------- */
 /* UTILITIES */
 /* ----------------------------------------------------------- */
