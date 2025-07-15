@@ -104,7 +104,7 @@ const Footer = () => {
             Gustio Nusamba
           </Link>
 
-          <p className="text-sm text-zinc-500">
+          <p className="font-heading text-sm font-medium text-zinc-500">
             &copy; 2025 <span className="text-zinc-200">Gustio Nusamba</span>
           </p>
         </div>
