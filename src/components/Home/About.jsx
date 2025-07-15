@@ -66,7 +66,7 @@ const About = () => {
                 src="/images/about/gustio.jpg"
                 alt="Gustio Nusamba"
                 width={600}
-                height={800}
+                height={600}
                 className="w-full rounded-[10px]"
               />
             </figure>
