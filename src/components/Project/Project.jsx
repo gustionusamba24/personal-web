@@ -10,33 +10,6 @@ const projects = [
     repoLink: "https://github.com/gustionusamba24/mini-projects",
     demoLink: "#projects",
   },
-  {
-    imgSrc: "/images/projects/cover-mini-projects.jpg",
-    title: "Mini Projects",
-    tools: ["html", "css", "js", "ts", "reactjs"],
-    description:
-      "An Experiment to learn JS, TS, HTML, CSS, and React by creating the simple projects",
-    repoLink: "https://github.com/gustionusamba24/mini-projects",
-    demoLink: "",
-  },
-  {
-    imgSrc: "/images/projects/cover-mini-projects.jpg",
-    title: "Mini Projects",
-    tools: ["html", "css", "js", "ts", "reactjs"],
-    description:
-      "An Experiment to learn JS, TS, HTML, CSS, and React by creating the simple projects",
-    repoLink: "https://github.com/gustionusamba24/mini-projects",
-    demoLink: "",
-  },
-  {
-    imgSrc: "/images/projects/cover-mini-projects.jpg",
-    title: "Mini Projects",
-    tools: ["html", "css", "js", "ts", "reactjs"],
-    description:
-      "An Experiment to learn JS, TS, HTML, CSS, and React by creating the simple projects",
-    repoLink: "https://github.com/gustionusamba24/mini-projects",
-    demoLink: "",
-  },
 ];
 
 const Project = () => {
