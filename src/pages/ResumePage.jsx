@@ -1,4 +1,4 @@
-import Project from "../components/Project/Project";
+import Resume from "../components/Resume/Resume";
 import { motion } from "framer-motion";
 
 const pageVariants = {
@@ -7,7 +7,7 @@ const pageVariants = {
   out: { opacity: 0, x: 50 },
 };
 
-const ProjectPage = () => {
+const ResumePage = () => {
   return (
     <motion.div
       variants={pageVariants}
@@ -19,14 +19,14 @@ const ProjectPage = () => {
       <section className="section">
         <div className="container">
           <h1 className="heading-1">
-            Featured <span className="heading-2">Projects</span>
+            The <span className="heading-2">Resume</span>
           </h1>
 
-          <Project />
+          <Resume />
         </div>
       </section>
     </motion.div>
   );
 };
 
-export default ProjectPage;
+export default ResumePage;
