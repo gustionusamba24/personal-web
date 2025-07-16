@@ -7,6 +7,10 @@ export default {
         heading: ['"Rethink Sans"', "sans-serif"],
         sans: ["Inter", "sans-serif"],
       },
+      colors: {
+        lightGreen: "#70ffc3",
+        darkGreen: "#2d8862",
+      },
     },
   },
   plugins: [],
