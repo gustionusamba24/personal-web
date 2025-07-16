@@ -52,9 +52,9 @@ const Footer = () => {
               Let&apos;s work together
             </h2>
 
-            <a href="" className="btn">
+            <Link to="/contact" className="btn">
               Contact
-            </a>
+            </Link>
           </div>
 
           <div className="grid grid-cols-2 gap-4 lg:pl-20">
