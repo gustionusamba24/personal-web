@@ -110,3 +110,8 @@ a,
 .material-symbols-rounded {
   @apply text-[20px];
 }
+
+.btn-repository,
+.btn-live-site {
+  @apply h-10 rounded-lg px-4 text-sm transition duration-200 hover:text-lightGreen;
+}
