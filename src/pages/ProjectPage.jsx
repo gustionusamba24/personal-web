@@ -5,7 +5,7 @@ const ProjectPage = () => {
     <section className="section">
       <div className="container">
         <h1 className="heading-1">
-          Completed <span className="heading-2">Projects</span>
+          Featured <span className="heading-2">Projects</span>
         </h1>
 
         <Project />
