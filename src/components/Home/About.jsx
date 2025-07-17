@@ -63,7 +63,7 @@ const About = () => {
           <div className="hidden lg:block">
             <figure className="ml-auto w-full max-w-[480px]">
               <img
-                src="/images/about/gustio.jpg"
+                src={import.meta.env.BASE_URL + "/images/about/gustio.jpg"}
                 alt="Gustio Nusamba"
                 width={600}
                 height={600}

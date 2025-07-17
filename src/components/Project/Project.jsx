@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    imgSrc: "/images/projects/cover-mini-projects.jpg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/projects/cover-mini-projects.jpg`,
     title: "Mini Projects",
     tools: ["HTML", "CSS", "JS", "TS", "React JS"],
     description:

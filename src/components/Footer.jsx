@@ -101,7 +101,12 @@ const Footer = () => {
 
         <div className="mb-8 flex items-center justify-between pt-10">
           <Link to="/" className="text-lightGreen">
-            <img src="/images/logo.svg" alt="Logo" width={36} height={36} />
+            <img
+              src={import.meta.env.BASE_URL + "/images/logo.svg"}
+              alt="Logo"
+              width={36}
+              height={36}
+            />
           </Link>
 
           <p className="font-heading text-sm font-medium text-zinc-500">

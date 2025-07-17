@@ -2,31 +2,31 @@ import ContactCard from "./ContactCard";
 
 const contacts = [
   {
-    imgSrc: "/images/contact/email.svg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/contact/email.svg`,
     label: "Email",
     account: "gusti2480@gmail.com",
     link: "mailto:gusti2480@gmail.com",
   },
   {
-    imgSrc: "/images/contact/whatsapp.svg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/contact/whatsapp.svg`,
     label: "WhatsApp",
     account: "+628994545474",
     link: "https://wa.me/628994545474",
   },
   {
-    imgSrc: "/images/contact/instagram.svg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/contact/instagram.svg`,
     label: "Instagram",
     account: "@gustiosmb",
     link: "https://www.instagram.com/gustiosmb",
   },
   {
-    imgSrc: "/images/contact/github.svg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/contact/github.svg`,
     label: "Github",
     account: "@gustionusamba24",
     link: "https://github.com/gustionusamba24",
   },
   {
-    imgSrc: "/images/contact/linkedin.svg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/contact/linkedin.svg`,
     label: "Linkedin",
     account: "Gustio Nusamba",
     link: "https://www.linkedin.com/in/gustio-nusamba/",

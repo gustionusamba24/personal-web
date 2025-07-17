@@ -2,35 +2,35 @@ import ToolCard from "./ToolCard";
 
 const tools = [
   {
-    imgSrc: "/images/tools/javascript.svg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/tools/javascript.svg`,
     label: "JavaScript",
   },
   {
-    imgSrc: "/images/tools/typescript.svg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/tools/typescript.svg`,
     label: "TypeScript",
   },
   {
-    imgSrc: "/images/tools/php.svg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/tools/php.svg`,
     label: "PHP",
   },
   {
-    imgSrc: "/images/tools/java.svg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/tools/java.svg`,
     label: "Java",
   },
   {
-    imgSrc: "/images/tools/react.svg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/tools/react.svg`,
     label: "React JS",
   },
   {
-    imgSrc: "/images/tools/express.svg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/tools/express.svg`,
     label: "Express JS",
   },
   {
-    imgSrc: "/images/tools/laravel.svg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/tools/laravel.svg`,
     label: "Laravel",
   },
   {
-    imgSrc: "/images/tools/spring.svg",
+    imgSrc: `${import.meta.env.BASE_URL}/images/tools/spring.svg`,
     label: "Spring Boot",
   },
 ];
