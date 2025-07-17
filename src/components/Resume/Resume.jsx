@@ -6,7 +6,7 @@ const experiences = [
     title: "Frontend Engineer Student",
     company: "Ruang Guru",
     descriptions: [
-      "Learning and practicing Web Platform development and best practice from Ruang Guru Instructors. (React, Express Js, Jest).",
+      "Learning about web Platform development and practicing the best practice from Ruang Guru Instructors. (React, Express Js, Jest).",
       "Gaining hands-on experience in front end development, utilizing the tools like Github, Postman, and Figma to streamline development process and enhance project workflows.",
     ],
     location: "Remote",
