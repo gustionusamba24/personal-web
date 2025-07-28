@@ -25,6 +25,7 @@ const About = () => {
                 href="https://github.com/gustionusamba24"
                 className="social-icon"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src="images/about/github.svg"
@@ -37,6 +38,7 @@ const About = () => {
                 href="https://www.linkedin.com/in/gustio-nusamba/"
                 className="social-icon"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src="images/about/linkedin.svg"
@@ -49,6 +51,7 @@ const About = () => {
                 href="https://leetcode.com/u/gustionusamba24/"
                 className="social-icon"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src="images/about/leetcode.svg"

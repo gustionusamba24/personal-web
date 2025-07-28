@@ -40,6 +40,7 @@ const ProjectCard = ({
               href={repoLink}
               icon={"folder_code"}
               target="_blank"
+              rel="noopener noreferrer"
               className={"btn-repository"}
             />
 
@@ -48,6 +49,7 @@ const ProjectCard = ({
               href={demoLink}
               icon={"play_arrow"}
               target="_blank"
+              rel="noopener noreferrer"
               className={"btn-live-site"}
             />
           </div>

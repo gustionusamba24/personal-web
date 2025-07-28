@@ -1,6 +1,13 @@
-const Button = ({ href, target = "_self", label, icon, className }) => {
+const Button = ({
+  href,
+  target = "_self",
+  label,
+  icon,
+  className,
+  rel,
+}) => {
   return (
-    <a href={href} target={target} className={`btn ${className}`}>
+    <a href={href} target={target} rel={rel} className={`btn ${className}`}>
       {label}
 
       {icon ? (

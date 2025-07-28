@@ -9,7 +9,12 @@ const ContactCard = ({ imgSrc, label, account, link }) => {
         <p className="text-2xl font-bold">{label}</p>
 
         <p className="text-[16px] font-semibold text-zinc-300">
-          <a href={link} target="_blank" className="font-sans">
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-sans"
+          >
             {account}
           </a>
         </p>

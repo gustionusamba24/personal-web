@@ -87,6 +87,7 @@ const Footer = () => {
                       <a
                         href={href}
                         target="_blank"
+                        rel="noopener noreferrer"
                         className="block py-1 text-sm text-zinc-400 transition-colors hover:text-zinc-200"
                       >
                         {label}

@@ -20,7 +20,8 @@ const Hero = () => {
                 "https://drive.google.com/file/d/1lAcT5J5alyrx7WL3uQiSGamj2ZnMS0bc/view?usp=sharing"
               }
               icon={"download"}
-              target="_blank"
+              target={"_blank"}
+              rel={"noopener noreferrer"}
               className={"btn-fill"}
             />
             <Button
