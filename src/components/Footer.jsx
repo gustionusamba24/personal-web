@@ -14,6 +14,10 @@ const pages = [
     link: "/resume",
   },
   {
+    label: "Blog",
+    link: "https://medium.com/@gustio.n",
+  },
+  {
     label: "Contact",
     link: "/contact",
   },

@@ -18,6 +18,11 @@ const Navbar = ({ navOpen }) => {
       className: "nav-link",
     },
     {
+      label: "Blog",
+      link: "https://medium.com/@gustio.n",
+      className: "nav-link ",
+    },
+    {
       label: "Contact",
       link: "/contact",
       className: "nav-link md:hidden",
