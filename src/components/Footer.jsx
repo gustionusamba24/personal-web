@@ -41,8 +41,8 @@ const socials = [
     href: "https://www.instagram.com/gustiosmb",
   },
   {
-    label: "Leetcode",
-    href: "https://leetcode.com/u/gustionusamba24/",
+    label: "Twitter",
+    href: "https://twitter.com/GustioNusamba",
   },
 ];
 

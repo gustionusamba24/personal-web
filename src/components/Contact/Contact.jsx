@@ -31,6 +31,12 @@ const contacts = [
     account: "Gustio Nusamba",
     link: "https://www.linkedin.com/in/gustio-nusamba/",
   },
+  {
+    imgSrc: `${import.meta.env.BASE_URL}/images/contact/twitter.svg`,
+    label: "Twitter",
+    account: "Gustio Nusamba",
+    link: "https://twitter.com/GustioNusamba",
+  },
 ];
 
 const Contact = () => {
