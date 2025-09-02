@@ -17,7 +17,7 @@ const Hero = () => {
             <Button
               label={"Download CV"}
               href={
-                "https://drive.google.com/file/d/1lAcT5J5alyrx7WL3uQiSGamj2ZnMS0bc/view?usp=sharing"
+                "https://drive.google.com/file/d/11-LH-Zr_vvBDroEVnLa68Zhy5Z3QM4_9/view?usp=sharing"
               }
               icon={"download"}
               target={"_blank"}
