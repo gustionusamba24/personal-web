@@ -43,16 +43,14 @@ const Resume = () => {
       <div className="container-resume mb-36">
         {experiences.map(
           ({ date, title, company, descriptions, location }, key) => (
-            <>
-              <ResumeCard
-                key={key}
-                date={date}
-                title={title}
-                company={company}
-                descriptions={descriptions}
-                location={location}
-              />
-            </>
+            <ResumeCard
+              key={key}
+              date={date}
+              title={title}
+              company={company}
+              descriptions={descriptions}
+              location={location}
+            />
           ),
         )}
       </div>
