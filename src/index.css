@@ -97,7 +97,7 @@ a,
 
 /* Navbar */
 .navbar {
-  @apply invisible absolute right-0 top-full isolate mt-2 min-w-40 scale-90 rounded-lg bg-zinc-50/10 p-2 opacity-0 ring-1 ring-inset ring-zinc-50/5 blur-sm transition-[opacity,transform,filter] md:visible md:static md:mt-0 md:flex md:scale-100 md:items-center md:opacity-100 md:blur-0 md:backdrop-blur-2xl;
+  @apply invisible absolute right-0 top-full isolate mt-2 min-w-40 scale-90 rounded-lg bg-zinc-800 p-2 opacity-0 ring-1 ring-inset ring-zinc-50/5 blur-sm transition-[opacity,transform,filter] md:visible md:static md:mt-0 md:flex md:scale-100 md:items-center md:opacity-100 md:blur-0 md:backdrop-blur-2xl;
 }
 
 .navbar.active {
