@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Navbar from "./Navbar";
 import { Link } from "react-router";
+import Navbar from "./Navbar";
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);

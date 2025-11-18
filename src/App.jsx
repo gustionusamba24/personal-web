@@ -1,12 +1,12 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import { AnimatePresence } from "framer-motion";
+import ReactLenis from "lenis/react";
 import { Route, Routes, useLocation } from "react-router";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import ContactPage from "./pages/ContactPage";
 import HomePage from "./pages/HomePage";
 import ProjectPage from "./pages/ProjectPage";
 import ResumePage from "./pages/ResumePage";
-import ContactPage from "./pages/ContactPage";
-import ReactLenis from "lenis/react";
-import { AnimatePresence } from "framer-motion";
 
 function AnimatedRoutes() {
   const location = useLocation();

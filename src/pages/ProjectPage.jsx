@@ -1,5 +1,5 @@
-import Project from "../components/Project/Project";
 import { motion } from "framer-motion";
+import Project from "../components/Project/Project";
 
 const pageVariants = {
   initial: { opacity: 0, x: -50 },

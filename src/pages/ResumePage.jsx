@@ -1,5 +1,5 @@
-import Resume from "../components/Resume/Resume";
 import { motion } from "framer-motion";
+import Resume from "../components/Resume/Resume";
 
 const pageVariants = {
   initial: { opacity: 0, x: -50 },

@@ -51,7 +51,7 @@ const Resume = () => {
               descriptions={descriptions}
               location={location}
             />
-          ),
+          )
         )}
       </div>
 
@@ -67,7 +67,7 @@ const Resume = () => {
               descriptions={descriptions}
               location={location}
             />
-          ),
+          )
         )}
       </div>
     </div>

@@ -1,5 +1,5 @@
-import Contact from "../components/Contact/Contact";
 import { motion } from "framer-motion";
+import Contact from "../components/Contact/Contact";
 
 const pageVariants = {
   initial: { opacity: 0, x: -50 },

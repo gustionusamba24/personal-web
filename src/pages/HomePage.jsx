@@ -1,7 +1,7 @@
+import { motion } from "framer-motion";
 import About from "../components/Home/About";
 import Hero from "../components/Home/Hero";
 import Tools from "../components/Home/Tools";
-import { motion } from "framer-motion";
 
 const pageVariants = {
   initial: { opacity: 0, x: -50 },

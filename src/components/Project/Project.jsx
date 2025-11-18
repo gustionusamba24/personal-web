@@ -26,7 +26,7 @@ const Project = () => {
             repoLink={repoLink}
             demoLink={demoLink}
           />
-        ),
+        )
       )}
     </div>
   );
